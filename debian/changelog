@@ -1,3 +1,9 @@
+gnome-common (3.14.0-1pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Mon, 21 Sep 2015 15:14:21 +0000
+
 gnome-common (3.14.0-1) unstable; urgency=medium
 
   * New upstream release.

@@ -5,8 +5,9 @@
 Source: gnome-common
 Section: gnome
 Priority: optional
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Gustavo Noronha Silva <kov@debian.org>, Josselin Mouette <joss@debian.org>, Martin Pitt <mpitt@debian.org>, Michael Biebl <biebl@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Andreas Henriksson <andreas@fatal.se>, Gustavo Noronha Silva <kov@debian.org>, Josselin Mouette <joss@debian.org>, Martin Pitt <mpitt@debian.org>, Michael Biebl <biebl@debian.org>
 Build-Depends: debhelper (>= 9),
                cdbs,
                gnome-pkg-tools
@@ -15,6 +16,7 @@ Build-Depends-Indep: pkg-config,
 Standards-Version: 3.9.5
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-common
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-common
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: gnome-common
 Architecture: all
